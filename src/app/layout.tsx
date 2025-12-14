@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     title: "ROHANAH - Toko Eceran Terpercaya",
     description: "Toko eceran lengkap untuk makanan, minuman, dan kebutuhan tembakau Anda.",
   },
+  other: {
+    "facebook-domain-verification": "smyytg7ultoixeyneytbt5w7gg5f1g",
+  },
 };
 
 export default function RootLayout({

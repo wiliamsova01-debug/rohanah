@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
-import { ArrowLeft, Shield, Eye, Database, UserRights, Lock, FileText } from 'lucide-react'
+import { ArrowLeft, Shield, Eye, Database, Users, Lock, FileText } from 'lucide-react'
 import Link from 'next/link'
 
 export default function PrivacyPage() {
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
     },
     {
       title: 'Hak Privasi Anda',
-      icon: UserRights,
+      icon: Users,
       content: [
         'Hak untuk mengakses data pribadi yang kami simpan tentang Anda',
         'Hak untuk memperbaiki data yang tidak akurat',
